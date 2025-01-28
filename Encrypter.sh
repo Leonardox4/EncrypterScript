@@ -11,7 +11,7 @@ select option in $choice; do
 		echo "Your file has been encrypted"
 		break
 
-	elif[ $REPLY = 2 ];
+	elif [ $REPLY = 2 ]; then
 		echo "You have choosen decryption" 
         	echo "Please enter the filename" 
         	read file; 
